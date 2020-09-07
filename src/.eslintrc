@@ -11,9 +11,11 @@
     "linebreak-style": "off",
     "comma-dangle": "off",
     "require-jsdoc": "off",
-    "object-curly-spacing": ["warn", "always"],
-    "quotes": ["warn", "single"],
-    "indent": ["warn", 2, { "SwitchCase": 1 }]
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "space-before-function-paren": ["error", "always"],
+    "operator-linebreak": "off"
   },
   "extends": [
     "eslint:recommended", "google"
